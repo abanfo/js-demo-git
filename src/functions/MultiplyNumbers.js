@@ -1,6 +1,7 @@
 const { app } = require('@azure/functions');
 
 // updated
+// update again to get a better understanding of the function app.
 app.http('MultiplyNumbers', {
     methods: ['GET'],
     authLevel: 'anonymous',
